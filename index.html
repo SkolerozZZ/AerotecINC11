@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AeroTec</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Poppins:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $("#menu").on("click", "a", function (event) {
+        event.preventDefault();
+        var id = $(this).attr('href'),
+          top = $(id).offset().top;
+        $('body,html').animate({ scrollTop: top }, 1500);
+      });
+    });
+  </script>
+</head>
+
+<body>
+
+  <header class="header " style="background-image: url('images/cop3.png');">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__nav">
+          <nav class="header__nav-list">
+            <a href="#" class="header__logo"><img src="images/logo.svg" alt="" class="logo"></a>
+            <ul class="nav__list">
+              <div class="nav__list-item underLine"><a class="nav__list-link" href="#aboutUS">О НАС</a></div>
+              <div class="nav__list-item underLine"><a class="nav__list-link" href="#our1US">НАШИ УСЛУГИ</a></div>
+              <div class="nav__list-item underLine"><a class="nav__list-link" href="#our2US">НАШИ КОПТЕРЫ</a></div>
+              <div class="nav__list-item underLine"><a class="nav__list-link" href="#zoneUS">ЗОНА ПОЛЕТА</a></div>
+              <div class="nav__list-item underLine nav__price"><a class="nav__list-link" href="#priceUS">ЦЕНЫ</a></div>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__title-list">
+          <h1 class="header__title1">
+            Реклама в Татищево
+          </h1>
+          <h2 class="header__title2">
+            Закажи рекламу будущего
+          </h2>
+          <h3 class="header__title3">
+
+            Наш дивиз “Эксклюзивность услуг - для вас!”
+
+          </h3>
+        </div>
+        <a href="#footerUS"><input type="button" value="ЗАКАЗАТЬ" class="header__btn"></a>
+      </div>
+    </div>
+  </header>
+
+  <section class="about">
+    <div class="container">
+      <div class="about__inner">
+
+        <div class="about__title" id="aboutUS">
+          О НАС
+        </div>
+
+
+
+        
+
+        
+
+
+        <div class="about__list">
+          <img src="images/Ivanov.png" alt="" class="about__list-img">
+          <div class="about__list-text">
+            <div class="about__list-title">
+              Андрей
+            </div>
+            <div class="about__list-disc">
+              С нашим менеджером Андреем, вы познакомитесь в первую очередь. Он проконсультирует вас, соберёт все
+              документы
+              и ответит на все вопросы.
+            </div>
+          </div>
+        </div>
+
+        <div class="about__list1">
+
+          <div class="about__list-text1">
+            <div class="about__list-title">
+              Борис
+            </div>
+            <div class="about__list-disc1">
+              Борис, наш front-end devoloper, человек, который возьмет на себя интерьер: внутреннюю и внешнюю отделку,
+              проследит, чтобы без труда открывались все окна и двери, в коридоре стояли цветы, а в холле играла
+              приятная, ненавязчивая музыка.
+            </div>
+
+
+          </div>
+          <img src="images/about1.png" alt="" class="abot__list-img1">
+        </div>
+
+        <div class="about__list">
+          <img src="images/Ellipse 22.png" alt="" class="about__list-img">
+          <div class="about__list-text">
+            <div class="about__list-title">
+              Дока
+            </div>
+            <div class="about__list-disc">
+              Дока, наш сис. админ, хорошо обращается с бубном.
+            </div>
+          </div>
+        </div>
+
+        <div class="about__list1">
+
+          <div class="about__list-text1">
+            <div class="about__list-title">
+              Егор
+            </div>
+            <div class="about__list-disc1">
+              Наш инженер, занимается техничесекой частью. Занимается сборкой и настройкой
+              наших квадрокоптеров.
+            </div>
+
+
+          </div>
+          <img src="images/Isakov.png" alt="" class="abot__list-img1">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="container">
+      <div class="services__inner">
+        <div class="services__title" id="our1US">
+          НАШИ УСЛУГИ
+        </div>
+
+        <div class="services__list">
+
+
+          <div class="services__list-item">
+            <div class="services__list-count">
+              <input type="button" value="1" class="services__list-count1 count__services">
+            </div>
+            <div class="services__list-disc">
+              Мы предоставляем наши технологичные дроны для вашей рекламы
+            </div>
+          </div>
+
+          <div class="services__list-item">
+            <div class="services__list-count">
+              <input type="button" value="2" class="services__list-count1">
+            </div>
+            <div class="services__list-disc">
+              Подбираем демократичные цены для вашей выгоды
+            </div>
+          </div>
+
+          <div class="services__list-item">
+            <div class="services__list-count">
+              <input type="button" value="3" class="services__list-count1">
+            </div>
+            <div class="services__list-disc">
+              Построим для вас любой дрон под ваши требования
+            </div>
+          </div>
+
+          <div class="services__list-item">
+            <div class="services__list-count">
+              <input type="button" value="4" class="services__list-count1">
+            </div>
+            <div class="services__list-disc">
+              Проконсультируем вас для будущего развития
+            </div>
+          </div>
+
+
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="our">
+    <div class="container">
+      <div class="our__inner">
+        <div class="our__title" id="our2US">
+          НАШИ КОПТЕРЫ
+        </div>
+        <div class="our__list">
+          <div class="our__list-title">
+            Комплектующие
+          </div>
+          <ul class="our__list-list">
+            <li class="our__list-item">Двигательная система E1200
+            </li>
+            <li class="our__list-item">Рама tarotfy680 (с алюминиевыми лучами) Tarot FY680.
+            </li>
+            <li class="our__list-item">Моторы Heng Li Brushless Motors W4225 610KV
+            </li>
+            <li class="our__list-item">Контроллер Naza-mv1
+            </li>
+            <li class="our__list-item">Регуляторы RCtimer 30a.
+            </li>
+            <li class="our__list-item">Аппаратура Turnigy 9xr.
+            </li>
+            <li class="our__list-item">Модуль и приемник к ней DJT Frsky.
+            </li>
+            <li class="our__list-item">Видеопередача Boscam 5.8 RC 305 и 200mw передатчик.
+            </li>
+            <li class="our__list-item">Аккумуляторы 11.1V 6000мАч 3S 65C LiPo T-Plug Hardcase RTF</li>
+          </ul>
+        </div>
+
+
+        <div class="our__list-title our__LIST">
+          Основные Характеристики
+        </div>
+        <ul class="our__list-list">
+          <li class="our__list-item">30 минут полета
+          </li>
+          <li class="our__list-item">Грузоподъемность 6кг
+          </li>
+          <li class="our__list-item">Дальность сигнала 3км
+          </li>
+          <li class="our__list-item">Максимальная высота полета 1.2 км
+          </li>
+          <li class="our__list-item">Камера с разрешением FULL HD
+          </li>
+          <li class="our__list-item">Возможность работы от -10°C до 60°C
+
+        </ul>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <section class="map">
+    <div class="container">
+      <div class="map__title" id="zoneUS">
+        ЗОНА ПОЛЕТА
+      </div>
+
+      <div class="map__text">
+        Мы работаем по всему Татищево
+      </div>
+      <div class="slick__map">
+        <div class="slick__map-item"><iframe class="map__frame"
+            src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d4948.495280117004!2d45.58882162804939!3d51.67361001865099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e2!4m3!3m2!1d51.677045199999995!2d45.5906673!4m3!3m2!1d51.6702911!2d45.5936331!5e0!3m2!1sru!2sru!4v1649329758277!5m2!1sru!2sru"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" class="map__map"></iframe></div>
+        <div class="slick__map-item"><iframe class="map__frame"
+            src="https://www.google.com/maps/embed?pb=!1m25!1m12!1m3!1d5927.558813208742!2d45.58294548879905!3d51.67262067753262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m10!3e2!4m4!1s0x4114d8cc5e838309%3A0x272888fe7043d68a!3m2!1d51.6768207!2d45.5858588!4m3!3m2!1d51.669936799999995!2d45.591862899999995!5e0!3m2!1sru!2sru!4v1649329887743!5m2!1sru!2sru"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" class="map__map"></iframe></div>
+        <div class="slick__map-item"><iframe class="map__frame"
+            src="https://www.google.com/maps/embed?pb=!1m25!1m12!1m3!1d8504.346760931123!2d45.58653227835414!3d51.67484847795019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m10!3e2!4m4!1s0x4114d91d25ac1f97%3A0x78b376f8d2bcda56!3m2!1d51.6796234!2d45.5989449!4m3!3m2!1d51.669936799999995!2d45.591862899999995!5e0!3m2!1sru!2sru!4v1649329993632!5m2!1sru!2sru"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" class="map__map"></iframe></div>
+
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="price">
+    <div class="container">
+      <div class="price__inner">
+        <div class="price__title" id="priceUS">
+          ЦЕНЫ
+        </div>
+
+        <div class="price__disc">
+          Реклама в центральных районах города
+        </div>
+
+        <table>
+          <tr>
+            <td colspan="2">1 день </td>
+            <td>7.990 руб.</td>
+          </tr>
+          <tr>
+
+            <td colspan="2"> 3 дня </td>
+            <td>14.990 руб.</td>
+
+          </tr>
+          <tr>
+
+            <td colspan="2">1 нелеля</td>
+            <td>34.990 руб.</td>
+
+          </tr>
+          <tr>
+
+            <td colspan="2">1 месяц</td>
+            <td>129.990 руб.</td>
+
+          </tr>
+        </table>
+
+        <div class="price__btn">
+          <input type="button" value="СВЯЗАТСЯ С НАМИ" class="price__btn-count">
+          
+        </div>
+        <div class="price__num">+7 (902) 048 90-91</div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id='footerUS'>
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__item">
+          <img src="images/qrcode.png" alt="" class="qrCODE">
+        <div class="footer__item1">
+          <img src="images/footer-1.png" alt="" class="footer__logo">
+          <div class="footer__item-disc">
+            <span class="footer__span">mail</span><br>
+            koshatan.lis@mail.ru
+          </div>
+        </div>
+
+        <div class="footer__item2">
+          <img src="images/footer-2.png" alt="" class="footer__logo">
+          <div class="footer__item-disc">
+            <span class="footer__span">call</span><br>
+            8 902 048 90 91
+          </div>
+        </div>
+
+        <div class="footer__item3">
+          <img src="images/footer-3.png" alt="" class="footer__logo">
+          <div class="footer__item-disc">
+            <span class="footer__span">find us</span><br>
+            МОУ "Татищевский лицей"
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
