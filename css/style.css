@@ -509,6 +509,10 @@ margin-bottom: 15px;
     font-family: 'Poppins', sans-serif;
 }
 
+.footer__item{
+    display: flex;
+}
+
 .footer__item1{
     border-right: 1px solid #fefe;
     border-left: 1px solid #fefe;
